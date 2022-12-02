@@ -23,7 +23,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install packages for python
       run: |
-       name:
+     
      
          - python3-pip
          - python3-dev
@@ -32,7 +32,7 @@ jobs:
          - libffi-dev
          - python3-setuptools
          - python3-venv
-       update_cache: yes
+      
       
     
       
